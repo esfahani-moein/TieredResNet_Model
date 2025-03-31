@@ -1,0 +1,2117 @@
+Using device: cuda
+GPU total memory: 84.97 GB
+Allocated: 0.00 GB
+Cached: 0.00 GB
+Free: 84.97 GB
+ModelNet(
+  (conv1): Conv2d(3, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+  (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (layer1): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (2): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (3): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (4): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (5): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (6): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (7): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (8): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (9): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (10): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (11): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (12): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (13): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (14): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (15): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (16): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (17): BasicBlock(
+      (conv1): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (trans1): Sequential(
+    (0): Conv2d(16, 106, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (layer2): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): AvgPool2d(kernel_size=2, stride=2, padding=0)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (2): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (3): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (4): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (5): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (6): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (7): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (8): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (9): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (10): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (11): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (12): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (13): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (14): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (15): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (16): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (17): BasicBlock(
+      (conv1): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(106, 106, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(106, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (trans2): Sequential(
+    (0): Conv2d(106, 196, kernel_size=(1, 1), stride=(1, 1), bias=False)
+    (1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (layer3): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): AvgPool2d(kernel_size=2, stride=2, padding=0)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (2): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (3): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (4): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (5): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (6): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (7): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (8): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (9): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (10): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (11): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (12): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (13): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (14): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (15): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (16): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (17): BasicBlock(
+      (conv1): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(196, 196, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(196, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+  (fc): Linear(in_features=196, out_features=10, bias=True)
+)
+ModelNet created with 16,218,598 parameters in 0.36 seconds
+Model architecture type: ModelNet-110 with alpha=270
+Starting training...
+
+Epoch: 1
+Batch: 0/98 | Loss: 2.913 | Acc: 11.523% | Time: 0.8s
+Batch: 50/98 | Loss: 5.243 | Acc: 10.068% | Time: 12.5s
+Train Loss: 3.833 | Train Acc: 10.016%
+Test Loss: 2.305 | Test Acc: 10.000%
+Best accuracy: 10.000% (previous: 0.000%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 1 completed in 25.28s
+
+Epoch: 2
+Batch: 0/98 | Loss: 2.302 | Acc: 8.789% | Time: 0.4s
+Batch: 50/98 | Loss: 2.304 | Acc: 9.946% | Time: 12.2s
+Train Loss: 2.303 | Train Acc: 9.974%
+Test Loss: 2.304 | Test Acc: 10.000%
+Learning rate: 0.4
+Epoch 2 completed in 24.59s
+
+Epoch: 3
+Batch: 0/98 | Loss: 2.301 | Acc: 11.523% | Time: 0.4s
+Batch: 50/98 | Loss: 2.302 | Acc: 10.191% | Time: 12.1s
+Train Loss: 2.303 | Train Acc: 10.162%
+Test Loss: 2.304 | Test Acc: 10.000%
+Learning rate: 0.4
+Epoch 3 completed in 24.57s
+
+Epoch: 4
+Batch: 0/98 | Loss: 2.301 | Acc: 9.570% | Time: 0.4s
+Batch: 50/98 | Loss: 2.301 | Acc: 10.252% | Time: 12.1s
+Train Loss: 2.299 | Train Acc: 10.620%
+Test Loss: 2.303 | Test Acc: 10.260%
+Best accuracy: 10.260% (previous: 10.000%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 4 completed in 24.88s
+
+Epoch: 5
+Batch: 0/98 | Loss: 2.284 | Acc: 13.281% | Time: 0.4s
+Batch: 50/98 | Loss: 2.223 | Acc: 15.196% | Time: 12.2s
+Train Loss: 2.163 | Train Acc: 16.890%
+Test Loss: 2.139 | Test Acc: 16.970%
+Best accuracy: 16.970% (previous: 10.260%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 5 completed in 24.91s
+
+Epoch: 6
+Batch: 0/98 | Loss: 2.026 | Acc: 19.922% | Time: 0.4s
+Batch: 50/98 | Loss: 2.042 | Acc: 19.332% | Time: 12.2s
+Train Loss: 2.019 | Train Acc: 20.204%
+Test Loss: 2.201 | Test Acc: 16.490%
+Learning rate: 0.4
+Epoch 6 completed in 24.61s
+
+Epoch: 7
+Batch: 0/98 | Loss: 1.977 | Acc: 23.242% | Time: 0.4s
+Batch: 50/98 | Loss: 1.926 | Acc: 25.234% | Time: 12.2s
+Train Loss: 1.903 | Train Acc: 26.332%
+Test Loss: 2.325 | Test Acc: 20.150%
+Best accuracy: 20.150% (previous: 16.970%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 7 completed in 24.91s
+
+Epoch: 8
+Batch: 0/98 | Loss: 1.792 | Acc: 32.031% | Time: 0.5s
+Batch: 50/98 | Loss: 1.779 | Acc: 31.679% | Time: 12.2s
+Train Loss: 1.762 | Train Acc: 32.236%
+Test Loss: 2.399 | Test Acc: 21.640%
+Best accuracy: 21.640% (previous: 20.150%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 8 completed in 24.95s
+
+Epoch: 9
+Batch: 0/98 | Loss: 1.691 | Acc: 35.938% | Time: 0.4s
+Batch: 50/98 | Loss: 1.690 | Acc: 35.340% | Time: 12.2s
+Train Loss: 1.662 | Train Acc: 36.388%
+Test Loss: 2.081 | Test Acc: 28.520%
+Best accuracy: 28.520% (previous: 21.640%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 9 completed in 24.94s
+
+Epoch: 10
+Batch: 0/98 | Loss: 1.605 | Acc: 40.039% | Time: 0.5s
+Batch: 50/98 | Loss: 1.555 | Acc: 41.713% | Time: 12.2s
+Train Loss: 1.529 | Train Acc: 42.968%
+Test Loss: 1.681 | Test Acc: 39.550%
+Best accuracy: 39.550% (previous: 28.520%)
+Saved best checkpoint to checkpoints/best_model.pth
+Saved checkpoint to checkpoints/checkpoint_epoch_10.pth
+Learning rate: 0.4
+Epoch 10 completed in 25.27s
+
+Epoch: 11
+Batch: 0/98 | Loss: 1.537 | Acc: 45.117% | Time: 0.4s
+Batch: 50/98 | Loss: 1.445 | Acc: 46.362% | Time: 12.2s
+Train Loss: 1.431 | Train Acc: 46.904%
+Test Loss: 2.112 | Test Acc: 28.220%
+Learning rate: 0.4
+Epoch 11 completed in 24.62s
+
+Epoch: 12
+Batch: 0/98 | Loss: 1.460 | Acc: 48.047% | Time: 0.4s
+Batch: 50/98 | Loss: 1.374 | Acc: 49.717% | Time: 12.2s
+Train Loss: 1.344 | Train Acc: 50.712%
+Test Loss: 6.463 | Test Acc: 11.350%
+Learning rate: 0.4
+Epoch 12 completed in 24.61s
+
+Epoch: 13
+Batch: 0/98 | Loss: 1.353 | Acc: 50.000% | Time: 0.4s
+Batch: 50/98 | Loss: 1.273 | Acc: 53.435% | Time: 12.2s
+Train Loss: 1.258 | Train Acc: 54.218%
+Test Loss: 3.158 | Test Acc: 28.240%
+Learning rate: 0.4
+Epoch 13 completed in 24.60s
+
+Epoch: 14
+Batch: 0/98 | Loss: 1.186 | Acc: 55.664% | Time: 0.4s
+Batch: 50/98 | Loss: 1.204 | Acc: 55.879% | Time: 12.2s
+Train Loss: 1.184 | Train Acc: 56.754%
+Test Loss: 1.340 | Test Acc: 51.480%
+Best accuracy: 51.480% (previous: 39.550%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 14 completed in 24.89s
+
+Epoch: 15
+Batch: 0/98 | Loss: 1.174 | Acc: 56.055% | Time: 0.4s
+Batch: 50/98 | Loss: 1.127 | Acc: 59.103% | Time: 12.2s
+Train Loss: 1.117 | Train Acc: 59.450%
+Test Loss: 2.687 | Test Acc: 33.750%
+Learning rate: 0.4
+Epoch 15 completed in 24.61s
+
+Epoch: 16
+Batch: 0/98 | Loss: 1.069 | Acc: 61.719% | Time: 0.4s
+Batch: 50/98 | Loss: 1.046 | Acc: 62.106% | Time: 12.2s
+Train Loss: 1.030 | Train Acc: 62.890%
+Test Loss: 4.882 | Test Acc: 24.120%
+Learning rate: 0.4
+Epoch 16 completed in 24.61s
+
+Epoch: 17
+Batch: 0/98 | Loss: 1.065 | Acc: 63.867% | Time: 0.4s
+Batch: 50/98 | Loss: 0.979 | Acc: 64.710% | Time: 12.1s
+Train Loss: 0.967 | Train Acc: 65.216%
+Test Loss: 1.586 | Test Acc: 52.730%
+Best accuracy: 52.730% (previous: 51.480%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 17 completed in 24.89s
+
+Epoch: 18
+Batch: 0/98 | Loss: 0.913 | Acc: 69.336% | Time: 0.4s
+Batch: 50/98 | Loss: 0.918 | Acc: 67.145% | Time: 12.2s
+Train Loss: 0.914 | Train Acc: 67.392%
+Test Loss: 7.804 | Test Acc: 19.210%
+Learning rate: 0.4
+Epoch 18 completed in 24.59s
+
+Epoch: 19
+Batch: 0/98 | Loss: 0.809 | Acc: 73.633% | Time: 0.4s
+Batch: 50/98 | Loss: 0.860 | Acc: 69.803% | Time: 12.1s
+Train Loss: 0.844 | Train Acc: 70.282%
+Test Loss: 1.850 | Test Acc: 51.570%
+Learning rate: 0.4
+Epoch 19 completed in 24.58s
+
+Epoch: 20
+Batch: 0/98 | Loss: 0.837 | Acc: 72.266% | Time: 0.4s
+Batch: 50/98 | Loss: 0.765 | Acc: 73.185% | Time: 12.1s
+Train Loss: 0.757 | Train Acc: 73.364%
+Test Loss: 1.384 | Test Acc: 58.660%
+Best accuracy: 58.660% (previous: 52.730%)
+Saved best checkpoint to checkpoints/best_model.pth
+Saved checkpoint to checkpoints/checkpoint_epoch_20.pth
+Learning rate: 0.4
+Epoch 20 completed in 25.16s
+
+Epoch: 21
+Batch: 0/98 | Loss: 0.634 | Acc: 76.562% | Time: 0.4s
+Batch: 50/98 | Loss: 0.712 | Acc: 75.115% | Time: 12.2s
+Train Loss: 0.709 | Train Acc: 75.430%
+Test Loss: 1.293 | Test Acc: 59.380%
+Best accuracy: 59.380% (previous: 58.660%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 21 completed in 24.91s
+
+Epoch: 22
+Batch: 0/98 | Loss: 0.614 | Acc: 81.250% | Time: 0.4s
+Batch: 50/98 | Loss: 0.674 | Acc: 76.658% | Time: 12.2s
+Train Loss: 0.666 | Train Acc: 76.848%
+Test Loss: 5.706 | Test Acc: 28.210%
+Learning rate: 0.4
+Epoch 22 completed in 24.62s
+
+Epoch: 23
+Batch: 0/98 | Loss: 0.668 | Acc: 77.344% | Time: 0.4s
+Batch: 50/98 | Loss: 0.637 | Acc: 77.937% | Time: 12.2s
+Train Loss: 0.640 | Train Acc: 77.860%
+Test Loss: 1.397 | Test Acc: 59.700%
+Best accuracy: 59.700% (previous: 59.380%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 23 completed in 24.90s
+
+Epoch: 24
+Batch: 0/98 | Loss: 0.688 | Acc: 75.781% | Time: 0.4s
+Batch: 50/98 | Loss: 0.621 | Acc: 78.592% | Time: 12.2s
+Train Loss: 0.621 | Train Acc: 78.694%
+Test Loss: 2.658 | Test Acc: 40.590%
+Learning rate: 0.4
+Epoch 24 completed in 24.62s
+
+Epoch: 25
+Batch: 0/98 | Loss: 0.591 | Acc: 79.492% | Time: 0.4s
+Batch: 50/98 | Loss: 0.596 | Acc: 79.301% | Time: 12.2s
+Train Loss: 0.592 | Train Acc: 79.556%
+Test Loss: 2.082 | Test Acc: 46.880%
+Learning rate: 0.4
+Epoch 25 completed in 24.60s
+
+Epoch: 26
+Batch: 0/98 | Loss: 0.613 | Acc: 79.688% | Time: 0.4s
+Batch: 50/98 | Loss: 0.569 | Acc: 80.189% | Time: 12.2s
+Train Loss: 0.571 | Train Acc: 80.124%
+Test Loss: 1.396 | Test Acc: 60.420%
+Best accuracy: 60.420% (previous: 59.700%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 26 completed in 24.90s
+
+Epoch: 27
+Batch: 0/98 | Loss: 0.563 | Acc: 79.492% | Time: 0.4s
+Batch: 50/98 | Loss: 0.548 | Acc: 81.039% | Time: 12.2s
+Train Loss: 0.555 | Train Acc: 80.776%
+Test Loss: 1.091 | Test Acc: 67.540%
+Best accuracy: 67.540% (previous: 60.420%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 27 completed in 24.91s
+
+Epoch: 28
+Batch: 0/98 | Loss: 0.538 | Acc: 80.664% | Time: 0.4s
+Batch: 50/98 | Loss: 0.548 | Acc: 81.032% | Time: 12.2s
+Train Loss: 0.544 | Train Acc: 81.210%
+Test Loss: 0.951 | Test Acc: 67.610%
+Best accuracy: 67.610% (previous: 67.540%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 28 completed in 24.95s
+
+Epoch: 29
+Batch: 0/98 | Loss: 0.545 | Acc: 82.617% | Time: 0.4s
+Batch: 50/98 | Loss: 0.540 | Acc: 81.376% | Time: 12.2s
+Train Loss: 0.538 | Train Acc: 81.488%
+Test Loss: 1.886 | Test Acc: 53.180%
+Learning rate: 0.4
+Epoch 29 completed in 24.61s
+
+Epoch: 30
+Batch: 0/98 | Loss: 0.509 | Acc: 81.836% | Time: 0.4s
+Batch: 50/98 | Loss: 0.523 | Acc: 81.905% | Time: 12.2s
+Train Loss: 0.517 | Train Acc: 82.232%
+Test Loss: 0.929 | Test Acc: 69.670%
+Best accuracy: 69.670% (previous: 67.610%)
+Saved best checkpoint to checkpoints/best_model.pth
+Saved checkpoint to checkpoints/checkpoint_epoch_30.pth
+Learning rate: 0.4
+Epoch 30 completed in 25.19s
+
+Epoch: 31
+Batch: 0/98 | Loss: 0.427 | Acc: 84.570% | Time: 0.6s
+Batch: 50/98 | Loss: 0.520 | Acc: 82.043% | Time: 12.3s
+Train Loss: 0.524 | Train Acc: 81.912%
+Test Loss: 3.775 | Test Acc: 34.880%
+Learning rate: 0.4
+Epoch 31 completed in 24.77s
+
+Epoch: 32
+Batch: 0/98 | Loss: 0.527 | Acc: 82.812% | Time: 0.5s
+Batch: 50/98 | Loss: 0.498 | Acc: 82.812% | Time: 12.3s
+Train Loss: 0.503 | Train Acc: 82.670%
+Test Loss: 0.923 | Test Acc: 71.090%
+Best accuracy: 71.090% (previous: 69.670%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 32 completed in 25.16s
+
+Epoch: 33
+Batch: 0/98 | Loss: 0.496 | Acc: 84.180% | Time: 0.4s
+Batch: 50/98 | Loss: 0.486 | Acc: 83.261% | Time: 12.2s
+Train Loss: 0.490 | Train Acc: 83.106%
+Test Loss: 2.216 | Test Acc: 46.860%
+Learning rate: 0.4
+Epoch 33 completed in 24.59s
+
+Epoch: 34
+Batch: 0/98 | Loss: 0.523 | Acc: 82.422% | Time: 0.4s
+Batch: 50/98 | Loss: 0.478 | Acc: 83.824% | Time: 12.1s
+Train Loss: 0.498 | Train Acc: 83.014%
+Test Loss: 1.937 | Test Acc: 50.680%
+Learning rate: 0.4
+Epoch 34 completed in 24.58s
+
+Epoch: 35
+Batch: 0/98 | Loss: 0.472 | Acc: 84.375% | Time: 0.4s
+Batch: 50/98 | Loss: 0.475 | Acc: 83.647% | Time: 12.1s
+Train Loss: 0.478 | Train Acc: 83.510%
+Test Loss: 1.118 | Test Acc: 64.680%
+Learning rate: 0.4
+Epoch 35 completed in 24.58s
+
+Epoch: 36
+Batch: 0/98 | Loss: 0.492 | Acc: 82.422% | Time: 0.4s
+Batch: 50/98 | Loss: 0.455 | Acc: 84.413% | Time: 12.1s
+Train Loss: 0.460 | Train Acc: 84.274%
+Test Loss: 1.029 | Test Acc: 67.200%
+Learning rate: 0.4
+Epoch 36 completed in 24.58s
+
+Epoch: 37
+Batch: 0/98 | Loss: 0.383 | Acc: 86.914% | Time: 0.4s
+Batch: 50/98 | Loss: 0.456 | Acc: 84.452% | Time: 12.2s
+Train Loss: 0.460 | Train Acc: 84.316%
+Test Loss: 1.920 | Test Acc: 52.430%
+Learning rate: 0.4
+Epoch 37 completed in 24.60s
+
+Epoch: 38
+Batch: 0/98 | Loss: 0.521 | Acc: 83.789% | Time: 0.4s
+Batch: 50/98 | Loss: 0.450 | Acc: 84.444% | Time: 12.2s
+Train Loss: 0.452 | Train Acc: 84.404%
+Test Loss: 1.606 | Test Acc: 57.000%
+Learning rate: 0.4
+Epoch 38 completed in 24.60s
+
+Epoch: 39
+Batch: 0/98 | Loss: 0.509 | Acc: 83.203% | Time: 0.4s
+Batch: 50/98 | Loss: 0.445 | Acc: 84.831% | Time: 12.2s
+Train Loss: 0.455 | Train Acc: 84.344%
+Test Loss: 1.961 | Test Acc: 51.420%
+Learning rate: 0.4
+Epoch 39 completed in 24.60s
+
+Epoch: 40
+Batch: 0/98 | Loss: 0.387 | Acc: 87.109% | Time: 0.4s
+Batch: 50/98 | Loss: 0.442 | Acc: 84.746% | Time: 12.2s
+Train Loss: 0.445 | Train Acc: 84.804%
+Test Loss: 2.357 | Test Acc: 47.190%
+Saved checkpoint to checkpoints/checkpoint_epoch_40.pth
+Learning rate: 0.4
+Epoch 40 completed in 24.90s
+
+Epoch: 41
+Batch: 0/98 | Loss: 0.466 | Acc: 84.570% | Time: 0.4s
+Batch: 50/98 | Loss: 0.424 | Acc: 85.738% | Time: 12.2s
+Train Loss: 0.439 | Train Acc: 85.186%
+Test Loss: 1.464 | Test Acc: 59.500%
+Learning rate: 0.4
+Epoch 41 completed in 24.61s
+
+Epoch: 42
+Batch: 0/98 | Loss: 0.451 | Acc: 85.938% | Time: 0.4s
+Batch: 50/98 | Loss: 0.436 | Acc: 84.881% | Time: 12.2s
+Train Loss: 0.440 | Train Acc: 84.808%
+Test Loss: 5.178 | Test Acc: 14.550%
+Learning rate: 0.4
+Epoch 42 completed in 24.60s
+
+Epoch: 43
+Batch: 0/98 | Loss: 0.403 | Acc: 86.328% | Time: 0.4s
+Batch: 50/98 | Loss: 0.428 | Acc: 85.394% | Time: 12.1s
+Train Loss: 0.429 | Train Acc: 85.374%
+Test Loss: 1.871 | Test Acc: 53.410%
+Learning rate: 0.4
+Epoch 43 completed in 24.60s
+
+Epoch: 44
+Batch: 0/98 | Loss: 0.432 | Acc: 85.547% | Time: 0.4s
+Batch: 50/98 | Loss: 0.430 | Acc: 85.122% | Time: 12.2s
+Train Loss: 0.432 | Train Acc: 85.140%
+Test Loss: 1.396 | Test Acc: 60.880%
+Learning rate: 0.4
+Epoch 44 completed in 24.60s
+
+Epoch: 45
+Batch: 0/98 | Loss: 0.473 | Acc: 84.766% | Time: 0.4s
+Batch: 50/98 | Loss: 0.414 | Acc: 85.654% | Time: 12.2s
+Train Loss: 0.416 | Train Acc: 85.674%
+Test Loss: 0.977 | Test Acc: 68.630%
+Learning rate: 0.4
+Epoch 45 completed in 24.61s
+
+Epoch: 46
+Batch: 0/98 | Loss: 0.388 | Acc: 86.523% | Time: 0.4s
+Batch: 50/98 | Loss: 0.415 | Acc: 85.911% | Time: 12.2s
+Train Loss: 0.426 | Train Acc: 85.460%
+Test Loss: 0.691 | Test Acc: 75.770%
+Best accuracy: 75.770% (previous: 71.090%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 46 completed in 24.91s
+
+Epoch: 47
+Batch: 0/98 | Loss: 0.493 | Acc: 84.180% | Time: 0.4s
+Batch: 50/98 | Loss: 0.419 | Acc: 85.616% | Time: 12.2s
+Train Loss: 0.422 | Train Acc: 85.416%
+Test Loss: 1.281 | Test Acc: 60.720%
+Learning rate: 0.4
+Epoch 47 completed in 24.60s
+
+Epoch: 48
+Batch: 0/98 | Loss: 0.374 | Acc: 85.938% | Time: 0.4s
+Batch: 50/98 | Loss: 0.403 | Acc: 86.003% | Time: 12.1s
+Train Loss: 0.416 | Train Acc: 85.736%
+Test Loss: 2.691 | Test Acc: 50.610%
+Learning rate: 0.4
+Epoch 48 completed in 24.59s
+
+Epoch: 49
+Batch: 0/98 | Loss: 0.375 | Acc: 86.523% | Time: 0.4s
+Batch: 50/98 | Loss: 0.415 | Acc: 85.869% | Time: 12.2s
+Train Loss: 0.413 | Train Acc: 85.880%
+Test Loss: 1.389 | Test Acc: 64.120%
+Learning rate: 0.4
+Epoch 49 completed in 24.61s
+
+Epoch: 50
+Batch: 0/98 | Loss: 0.433 | Acc: 85.352% | Time: 0.4s
+Batch: 50/98 | Loss: 0.410 | Acc: 85.803% | Time: 12.2s
+Train Loss: 0.421 | Train Acc: 85.664%
+Test Loss: 45.381 | Test Acc: 10.380%
+Saved checkpoint to checkpoints/checkpoint_epoch_50.pth
+Learning rate: 0.4
+Epoch 50 completed in 24.87s
+
+Epoch: 51
+Batch: 0/98 | Loss: 0.522 | Acc: 81.445% | Time: 0.4s
+Batch: 50/98 | Loss: 0.416 | Acc: 85.570% | Time: 12.1s
+Train Loss: 0.425 | Train Acc: 85.358%
+Test Loss: 0.632 | Test Acc: 78.370%
+Best accuracy: 78.370% (previous: 75.770%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 51 completed in 24.89s
+
+Epoch: 52
+Batch: 0/98 | Loss: 0.400 | Acc: 84.961% | Time: 0.4s
+Batch: 50/98 | Loss: 0.403 | Acc: 86.156% | Time: 12.2s
+Train Loss: 0.402 | Train Acc: 86.162%
+Test Loss: 0.766 | Test Acc: 74.370%
+Learning rate: 0.4
+Epoch 52 completed in 24.60s
+
+Epoch: 53
+Batch: 0/98 | Loss: 0.418 | Acc: 84.961% | Time: 0.4s
+Batch: 50/98 | Loss: 0.391 | Acc: 86.531% | Time: 12.1s
+Train Loss: 0.403 | Train Acc: 86.100%
+Test Loss: 1.000 | Test Acc: 68.520%
+Learning rate: 0.4
+Epoch 53 completed in 24.59s
+
+Epoch: 54
+Batch: 0/98 | Loss: 0.399 | Acc: 86.133% | Time: 0.4s
+Batch: 50/98 | Loss: 0.389 | Acc: 86.520% | Time: 12.2s
+Train Loss: 0.405 | Train Acc: 86.130%
+Test Loss: 1.006 | Test Acc: 68.360%
+Learning rate: 0.4
+Epoch 54 completed in 24.64s
+
+Epoch: 55
+Batch: 0/98 | Loss: 0.341 | Acc: 88.281% | Time: 0.4s
+Batch: 50/98 | Loss: 0.393 | Acc: 86.558% | Time: 12.2s
+Train Loss: 0.393 | Train Acc: 86.592%
+Test Loss: 0.784 | Test Acc: 75.840%
+Learning rate: 0.4
+Epoch 55 completed in 24.59s
+
+Epoch: 56
+Batch: 0/98 | Loss: 0.336 | Acc: 88.086% | Time: 0.4s
+Batch: 50/98 | Loss: 0.393 | Acc: 86.474% | Time: 12.2s
+Train Loss: 0.398 | Train Acc: 86.338%
+Test Loss: 0.918 | Test Acc: 73.430%
+Learning rate: 0.4
+Epoch 56 completed in 24.59s
+
+Epoch: 57
+Batch: 0/98 | Loss: 0.411 | Acc: 84.180% | Time: 0.4s
+Batch: 50/98 | Loss: 0.395 | Acc: 86.474% | Time: 12.2s
+Train Loss: 0.404 | Train Acc: 86.116%
+Test Loss: 1.421 | Test Acc: 59.680%
+Learning rate: 0.4
+Epoch 57 completed in 24.80s
+
+Epoch: 58
+Batch: 0/98 | Loss: 0.334 | Acc: 88.867% | Time: 0.4s
+Batch: 50/98 | Loss: 0.399 | Acc: 86.489% | Time: 12.2s
+Train Loss: 0.394 | Train Acc: 86.570%
+Test Loss: 2.289 | Test Acc: 49.140%
+Learning rate: 0.4
+Epoch 58 completed in 24.59s
+
+Epoch: 59
+Batch: 0/98 | Loss: 0.397 | Acc: 85.547% | Time: 0.4s
+Batch: 50/98 | Loss: 0.380 | Acc: 86.933% | Time: 12.2s
+Train Loss: 0.386 | Train Acc: 86.834%
+Test Loss: 0.608 | Test Acc: 79.410%
+Best accuracy: 79.410% (previous: 78.370%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.4
+Epoch 59 completed in 25.19s
+
+Epoch: 60
+Batch: 0/98 | Loss: 0.382 | Acc: 85.156% | Time: 0.4s
+Batch: 50/98 | Loss: 0.387 | Acc: 86.634% | Time: 12.2s
+Train Loss: 0.393 | Train Acc: 86.590%
+Test Loss: 0.956 | Test Acc: 72.490%
+Saved checkpoint to checkpoints/checkpoint_epoch_60.pth
+Learning rate: 0.08000000000000002
+Epoch 60 completed in 24.90s
+
+Epoch: 61
+Batch: 0/98 | Loss: 0.423 | Acc: 84.570% | Time: 0.4s
+Batch: 50/98 | Loss: 0.268 | Acc: 90.885% | Time: 12.2s
+Train Loss: 0.242 | Train Acc: 91.762%
+Test Loss: 0.348 | Test Acc: 88.650%
+Best accuracy: 88.650% (previous: 79.410%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.08000000000000002
+Epoch 61 completed in 24.94s
+
+Epoch: 62
+Batch: 0/98 | Loss: 0.233 | Acc: 91.406% | Time: 0.4s
+Batch: 50/98 | Loss: 0.181 | Acc: 93.903% | Time: 12.2s
+Train Loss: 0.185 | Train Acc: 93.688%
+Test Loss: 0.389 | Test Acc: 87.560%
+Learning rate: 0.08000000000000002
+Epoch 62 completed in 24.65s
+
+Epoch: 63
+Batch: 0/98 | Loss: 0.181 | Acc: 93.359% | Time: 0.4s
+Batch: 50/98 | Loss: 0.169 | Acc: 94.194% | Time: 12.2s
+Train Loss: 0.164 | Train Acc: 94.454%
+Test Loss: 0.329 | Test Acc: 89.630%
+Best accuracy: 89.630% (previous: 88.650%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.08000000000000002
+Epoch 63 completed in 24.91s
+
+Epoch: 64
+Batch: 0/98 | Loss: 0.147 | Acc: 95.312% | Time: 0.4s
+Batch: 50/98 | Loss: 0.152 | Acc: 94.979% | Time: 12.2s
+Train Loss: 0.157 | Train Acc: 94.718%
+Test Loss: 0.311 | Test Acc: 89.930%
+Best accuracy: 89.930% (previous: 89.630%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.08000000000000002
+Epoch 64 completed in 24.96s
+
+Epoch: 65
+Batch: 0/98 | Loss: 0.128 | Acc: 95.898% | Time: 0.4s
+Batch: 50/98 | Loss: 0.144 | Acc: 95.129% | Time: 12.2s
+Train Loss: 0.148 | Train Acc: 94.962%
+Test Loss: 0.344 | Test Acc: 89.420%
+Learning rate: 0.08000000000000002
+Epoch 65 completed in 24.60s
+
+Epoch: 66
+Batch: 0/98 | Loss: 0.102 | Acc: 97.266% | Time: 0.4s
+Batch: 50/98 | Loss: 0.129 | Acc: 95.584% | Time: 12.1s
+Train Loss: 0.139 | Train Acc: 95.194%
+Test Loss: 0.390 | Test Acc: 88.170%
+Learning rate: 0.08000000000000002
+Epoch 66 completed in 24.58s
+
+Epoch: 67
+Batch: 0/98 | Loss: 0.144 | Acc: 94.336% | Time: 0.4s
+Batch: 50/98 | Loss: 0.129 | Acc: 95.604% | Time: 12.2s
+Train Loss: 0.140 | Train Acc: 95.244%
+Test Loss: 0.348 | Test Acc: 89.400%
+Learning rate: 0.08000000000000002
+Epoch 67 completed in 24.58s
+
+Epoch: 68
+Batch: 0/98 | Loss: 0.139 | Acc: 95.117% | Time: 0.4s
+Batch: 50/98 | Loss: 0.132 | Acc: 95.531% | Time: 12.1s
+Train Loss: 0.140 | Train Acc: 95.166%
+Test Loss: 0.348 | Test Acc: 88.860%
+Learning rate: 0.08000000000000002
+Epoch 68 completed in 24.58s
+
+Epoch: 69
+Batch: 0/98 | Loss: 0.132 | Acc: 94.531% | Time: 0.4s
+Batch: 50/98 | Loss: 0.130 | Acc: 95.596% | Time: 12.1s
+Train Loss: 0.131 | Train Acc: 95.466%
+Test Loss: 0.366 | Test Acc: 88.460%
+Learning rate: 0.08000000000000002
+Epoch 69 completed in 24.58s
+
+Epoch: 70
+Batch: 0/98 | Loss: 0.144 | Acc: 94.531% | Time: 0.4s
+Batch: 50/98 | Loss: 0.130 | Acc: 95.577% | Time: 12.2s
+Train Loss: 0.135 | Train Acc: 95.360%
+Test Loss: 0.286 | Test Acc: 90.420%
+Best accuracy: 90.420% (previous: 89.930%)
+Saved best checkpoint to checkpoints/best_model.pth
+Saved checkpoint to checkpoints/checkpoint_epoch_70.pth
+Learning rate: 0.08000000000000002
+Epoch 70 completed in 25.19s
+
+Epoch: 71
+Batch: 0/98 | Loss: 0.089 | Acc: 96.484% | Time: 0.4s
+Batch: 50/98 | Loss: 0.122 | Acc: 95.814% | Time: 12.2s
+Train Loss: 0.130 | Train Acc: 95.490%
+Test Loss: 0.493 | Test Acc: 85.800%
+Learning rate: 0.08000000000000002
+Epoch 71 completed in 24.61s
+
+Epoch: 72
+Batch: 0/98 | Loss: 0.108 | Acc: 97.656% | Time: 0.4s
+Batch: 50/98 | Loss: 0.127 | Acc: 95.768% | Time: 12.1s
+Train Loss: 0.134 | Train Acc: 95.482%
+Test Loss: 0.404 | Test Acc: 87.380%
+Learning rate: 0.08000000000000002
+Epoch 72 completed in 24.59s
+
+Epoch: 73
+Batch: 0/98 | Loss: 0.129 | Acc: 95.508% | Time: 0.4s
+Batch: 50/98 | Loss: 0.129 | Acc: 95.565% | Time: 12.2s
+Train Loss: 0.137 | Train Acc: 95.282%
+Test Loss: 0.377 | Test Acc: 88.610%
+Learning rate: 0.08000000000000002
+Epoch 73 completed in 24.60s
+
+Epoch: 74
+Batch: 0/98 | Loss: 0.129 | Acc: 95.703% | Time: 0.4s
+Batch: 50/98 | Loss: 0.134 | Acc: 95.378% | Time: 12.2s
+Train Loss: 0.138 | Train Acc: 95.228%
+Test Loss: 0.397 | Test Acc: 87.760%
+Learning rate: 0.08000000000000002
+Epoch 74 completed in 24.59s
+
+Epoch: 75
+Batch: 0/98 | Loss: 0.106 | Acc: 95.898% | Time: 0.4s
+Batch: 50/98 | Loss: 0.134 | Acc: 95.489% | Time: 12.2s
+Train Loss: 0.142 | Train Acc: 95.150%
+Test Loss: 0.479 | Test Acc: 85.390%
+Learning rate: 0.08000000000000002
+Epoch 75 completed in 24.60s
+
+Epoch: 76
+Batch: 0/98 | Loss: 0.140 | Acc: 94.922% | Time: 0.4s
+Batch: 50/98 | Loss: 0.134 | Acc: 95.374% | Time: 12.2s
+Train Loss: 0.137 | Train Acc: 95.186%
+Test Loss: 0.445 | Test Acc: 86.680%
+Learning rate: 0.08000000000000002
+Epoch 76 completed in 24.60s
+
+Epoch: 77
+Batch: 0/98 | Loss: 0.119 | Acc: 96.289% | Time: 0.4s
+Batch: 50/98 | Loss: 0.132 | Acc: 95.401% | Time: 12.2s
+Train Loss: 0.143 | Train Acc: 94.936%
+Test Loss: 0.655 | Test Acc: 81.870%
+Learning rate: 0.08000000000000002
+Epoch 77 completed in 24.61s
+
+Epoch: 78
+Batch: 0/98 | Loss: 0.122 | Acc: 96.875% | Time: 0.4s
+Batch: 50/98 | Loss: 0.133 | Acc: 95.435% | Time: 12.2s
+Train Loss: 0.141 | Train Acc: 95.114%
+Test Loss: 0.549 | Test Acc: 85.150%
+Learning rate: 0.08000000000000002
+Epoch 78 completed in 24.66s
+
+Epoch: 79
+Batch: 0/98 | Loss: 0.122 | Acc: 95.703% | Time: 0.4s
+Batch: 50/98 | Loss: 0.134 | Acc: 95.378% | Time: 12.2s
+Train Loss: 0.141 | Train Acc: 95.162%
+Test Loss: 0.493 | Test Acc: 86.030%
+Learning rate: 0.08000000000000002
+Epoch 79 completed in 24.60s
+
+Epoch: 80
+Batch: 0/98 | Loss: 0.117 | Acc: 96.289% | Time: 0.4s
+Batch: 50/98 | Loss: 0.131 | Acc: 95.500% | Time: 12.2s
+Train Loss: 0.133 | Train Acc: 95.378%
+Test Loss: 0.613 | Test Acc: 82.430%
+Saved checkpoint to checkpoints/checkpoint_epoch_80.pth
+Learning rate: 0.08000000000000002
+Epoch 80 completed in 24.89s
+
+Epoch: 81
+Batch: 0/98 | Loss: 0.122 | Acc: 95.508% | Time: 0.4s
+Batch: 50/98 | Loss: 0.132 | Acc: 95.443% | Time: 12.2s
+Train Loss: 0.133 | Train Acc: 95.342%
+Test Loss: 0.601 | Test Acc: 83.200%
+Learning rate: 0.08000000000000002
+Epoch 81 completed in 24.59s
+
+Epoch: 82
+Batch: 0/98 | Loss: 0.105 | Acc: 96.680% | Time: 0.4s
+Batch: 50/98 | Loss: 0.131 | Acc: 95.481% | Time: 12.2s
+Train Loss: 0.137 | Train Acc: 95.284%
+Test Loss: 0.365 | Test Acc: 87.980%
+Learning rate: 0.08000000000000002
+Epoch 82 completed in 24.61s
+
+Epoch: 83
+Batch: 0/98 | Loss: 0.122 | Acc: 95.312% | Time: 0.4s
+Batch: 50/98 | Loss: 0.131 | Acc: 95.435% | Time: 12.1s
+Train Loss: 0.135 | Train Acc: 95.282%
+Test Loss: 0.343 | Test Acc: 89.410%
+Learning rate: 0.08000000000000002
+Epoch 83 completed in 24.57s
+
+Epoch: 84
+Batch: 0/98 | Loss: 0.129 | Acc: 95.508% | Time: 0.4s
+Batch: 50/98 | Loss: 0.122 | Acc: 95.768% | Time: 12.2s
+Train Loss: 0.128 | Train Acc: 95.546%
+Test Loss: 0.422 | Test Acc: 87.470%
+Learning rate: 0.08000000000000002
+Epoch 84 completed in 24.59s
+
+Epoch: 85
+Batch: 0/98 | Loss: 0.122 | Acc: 96.484% | Time: 0.4s
+Batch: 50/98 | Loss: 0.132 | Acc: 95.531% | Time: 12.1s
+Train Loss: 0.139 | Train Acc: 95.286%
+Test Loss: 0.502 | Test Acc: 85.700%
+Learning rate: 0.08000000000000002
+Epoch 85 completed in 24.57s
+
+Epoch: 86
+Batch: 0/98 | Loss: 0.101 | Acc: 96.680% | Time: 0.4s
+Batch: 50/98 | Loss: 0.123 | Acc: 95.810% | Time: 12.2s
+Train Loss: 0.132 | Train Acc: 95.406%
+Test Loss: 0.590 | Test Acc: 83.750%
+Learning rate: 0.08000000000000002
+Epoch 86 completed in 24.60s
+
+Epoch: 87
+Batch: 0/98 | Loss: 0.107 | Acc: 96.680% | Time: 0.4s
+Batch: 50/98 | Loss: 0.128 | Acc: 95.523% | Time: 12.2s
+Train Loss: 0.135 | Train Acc: 95.268%
+Test Loss: 0.456 | Test Acc: 85.580%
+Learning rate: 0.08000000000000002
+Epoch 87 completed in 24.60s
+
+Epoch: 88
+Batch: 0/98 | Loss: 0.123 | Acc: 96.094% | Time: 0.4s
+Batch: 50/98 | Loss: 0.124 | Acc: 95.868% | Time: 12.2s
+Train Loss: 0.128 | Train Acc: 95.652%
+Test Loss: 0.542 | Test Acc: 83.890%
+Learning rate: 0.08000000000000002
+Epoch 88 completed in 24.60s
+
+Epoch: 89
+Batch: 0/98 | Loss: 0.128 | Acc: 95.898% | Time: 0.4s
+Batch: 50/98 | Loss: 0.127 | Acc: 95.600% | Time: 12.2s
+Train Loss: 0.131 | Train Acc: 95.470%
+Test Loss: 0.788 | Test Acc: 77.160%
+Learning rate: 0.08000000000000002
+Epoch 89 completed in 24.60s
+
+Epoch: 90
+Batch: 0/98 | Loss: 0.123 | Acc: 95.312% | Time: 0.4s
+Batch: 50/98 | Loss: 0.125 | Acc: 95.611% | Time: 12.2s
+Train Loss: 0.127 | Train Acc: 95.604%
+Test Loss: 0.563 | Test Acc: 84.600%
+Saved checkpoint to checkpoints/checkpoint_epoch_90.pth
+Learning rate: 0.08000000000000002
+Epoch 90 completed in 24.90s
+
+Epoch: 91
+Batch: 0/98 | Loss: 0.132 | Acc: 94.922% | Time: 0.5s
+Batch: 50/98 | Loss: 0.125 | Acc: 95.584% | Time: 12.2s
+Train Loss: 0.129 | Train Acc: 95.530%
+Test Loss: 0.586 | Test Acc: 84.570%
+Learning rate: 0.08000000000000002
+Epoch 91 completed in 24.66s
+
+Epoch: 92
+Batch: 0/98 | Loss: 0.124 | Acc: 96.094% | Time: 0.4s
+Batch: 50/98 | Loss: 0.131 | Acc: 95.546% | Time: 12.1s
+Train Loss: 0.132 | Train Acc: 95.468%
+Test Loss: 0.470 | Test Acc: 87.100%
+Learning rate: 0.08000000000000002
+Epoch 92 completed in 24.60s
+
+Epoch: 93
+Batch: 0/98 | Loss: 0.117 | Acc: 95.508% | Time: 0.4s
+Batch: 50/98 | Loss: 0.113 | Acc: 96.124% | Time: 12.2s
+Train Loss: 0.123 | Train Acc: 95.770%
+Test Loss: 0.576 | Test Acc: 83.500%
+Learning rate: 0.08000000000000002
+Epoch 93 completed in 24.61s
+
+Epoch: 94
+Batch: 0/98 | Loss: 0.126 | Acc: 95.703% | Time: 0.4s
+Batch: 50/98 | Loss: 0.123 | Acc: 95.734% | Time: 12.2s
+Train Loss: 0.127 | Train Acc: 95.646%
+Test Loss: 0.791 | Test Acc: 78.930%
+Learning rate: 0.08000000000000002
+Epoch 94 completed in 24.61s
+
+Epoch: 95
+Batch: 0/98 | Loss: 0.111 | Acc: 96.484% | Time: 0.4s
+Batch: 50/98 | Loss: 0.113 | Acc: 96.151% | Time: 12.2s
+Train Loss: 0.124 | Train Acc: 95.756%
+Test Loss: 0.553 | Test Acc: 83.990%
+Learning rate: 0.08000000000000002
+Epoch 95 completed in 24.60s
+
+Epoch: 96
+Batch: 0/98 | Loss: 0.102 | Acc: 95.898% | Time: 0.4s
+Batch: 50/98 | Loss: 0.120 | Acc: 95.906% | Time: 12.2s
+Train Loss: 0.124 | Train Acc: 95.734%
+Test Loss: 0.672 | Test Acc: 81.680%
+Learning rate: 0.08000000000000002
+Epoch 96 completed in 24.61s
+
+Epoch: 97
+Batch: 0/98 | Loss: 0.109 | Acc: 96.484% | Time: 0.4s
+Batch: 50/98 | Loss: 0.120 | Acc: 95.983% | Time: 12.2s
+Train Loss: 0.124 | Train Acc: 95.758%
+Test Loss: 0.629 | Test Acc: 82.890%
+Learning rate: 0.08000000000000002
+Epoch 97 completed in 24.60s
+
+Epoch: 98
+Batch: 0/98 | Loss: 0.116 | Acc: 96.680% | Time: 0.4s
+Batch: 50/98 | Loss: 0.116 | Acc: 96.094% | Time: 12.2s
+Train Loss: 0.122 | Train Acc: 95.896%
+Test Loss: 0.659 | Test Acc: 83.350%
+Learning rate: 0.08000000000000002
+Epoch 98 completed in 24.61s
+
+Epoch: 99
+Batch: 0/98 | Loss: 0.126 | Acc: 95.117% | Time: 0.4s
+Batch: 50/98 | Loss: 0.123 | Acc: 95.753% | Time: 12.2s
+Train Loss: 0.127 | Train Acc: 95.734%
+Test Loss: 0.331 | Test Acc: 89.650%
+Learning rate: 0.08000000000000002
+Epoch 99 completed in 24.59s
+
+Epoch: 100
+Batch: 0/98 | Loss: 0.074 | Acc: 98.047% | Time: 0.4s
+Batch: 50/98 | Loss: 0.110 | Acc: 96.304% | Time: 12.2s
+Train Loss: 0.114 | Train Acc: 96.128%
+Test Loss: 0.484 | Test Acc: 86.010%
+Saved checkpoint to checkpoints/checkpoint_epoch_100.pth
+Learning rate: 0.08000000000000002
+Epoch 100 completed in 24.88s
+
+Epoch: 101
+Batch: 0/98 | Loss: 0.111 | Acc: 95.898% | Time: 0.4s
+Batch: 50/98 | Loss: 0.118 | Acc: 96.040% | Time: 12.2s
+Train Loss: 0.121 | Train Acc: 95.874%
+Test Loss: 0.522 | Test Acc: 85.200%
+Learning rate: 0.08000000000000002
+Epoch 101 completed in 24.59s
+
+Epoch: 102
+Batch: 0/98 | Loss: 0.085 | Acc: 97.656% | Time: 0.4s
+Batch: 50/98 | Loss: 0.125 | Acc: 95.749% | Time: 12.2s
+Train Loss: 0.121 | Train Acc: 95.910%
+Test Loss: 0.409 | Test Acc: 87.820%
+Learning rate: 0.08000000000000002
+Epoch 102 completed in 24.61s
+
+Epoch: 103
+Batch: 0/98 | Loss: 0.099 | Acc: 96.484% | Time: 0.4s
+Batch: 50/98 | Loss: 0.102 | Acc: 96.412% | Time: 12.2s
+Train Loss: 0.112 | Train Acc: 96.060%
+Test Loss: 1.015 | Test Acc: 75.100%
+Learning rate: 0.08000000000000002
+Epoch 103 completed in 24.61s
+
+Epoch: 104
+Batch: 0/98 | Loss: 0.131 | Acc: 95.312% | Time: 0.4s
+Batch: 50/98 | Loss: 0.116 | Acc: 96.113% | Time: 12.2s
+Train Loss: 0.119 | Train Acc: 95.998%
+Test Loss: 0.553 | Test Acc: 84.940%
+Learning rate: 0.08000000000000002
+Epoch 104 completed in 24.61s
+
+Epoch: 105
+Batch: 0/98 | Loss: 0.092 | Acc: 96.875% | Time: 0.4s
+Batch: 50/98 | Loss: 0.112 | Acc: 96.174% | Time: 12.2s
+Train Loss: 0.118 | Train Acc: 95.974%
+Test Loss: 1.073 | Test Acc: 77.410%
+Learning rate: 0.08000000000000002
+Epoch 105 completed in 24.61s
+
+Epoch: 106
+Batch: 0/98 | Loss: 0.148 | Acc: 94.531% | Time: 0.4s
+Batch: 50/98 | Loss: 0.122 | Acc: 95.856% | Time: 12.2s
+Train Loss: 0.118 | Train Acc: 95.986%
+Test Loss: 0.484 | Test Acc: 86.090%
+Learning rate: 0.08000000000000002
+Epoch 106 completed in 24.62s
+
+Epoch: 107
+Batch: 0/98 | Loss: 0.109 | Acc: 95.898% | Time: 0.4s
+Batch: 50/98 | Loss: 0.118 | Acc: 95.937% | Time: 12.2s
+Train Loss: 0.123 | Train Acc: 95.738%
+Test Loss: 0.556 | Test Acc: 84.100%
+Learning rate: 0.08000000000000002
+Epoch 107 completed in 24.65s
+
+Epoch: 108
+Batch: 0/98 | Loss: 0.113 | Acc: 97.070% | Time: 0.4s
+Batch: 50/98 | Loss: 0.111 | Acc: 96.266% | Time: 12.2s
+Train Loss: 0.114 | Train Acc: 96.146%
+Test Loss: 0.573 | Test Acc: 83.870%
+Learning rate: 0.08000000000000002
+Epoch 108 completed in 24.62s
+
+Epoch: 109
+Batch: 0/98 | Loss: 0.106 | Acc: 96.484% | Time: 0.4s
+Batch: 50/98 | Loss: 0.111 | Acc: 96.205% | Time: 12.2s
+Train Loss: 0.113 | Train Acc: 96.082%
+Test Loss: 0.640 | Test Acc: 82.180%
+Learning rate: 0.08000000000000002
+Epoch 109 completed in 24.62s
+
+Epoch: 110
+Batch: 0/98 | Loss: 0.100 | Acc: 95.898% | Time: 0.4s
+Batch: 50/98 | Loss: 0.113 | Acc: 96.159% | Time: 12.2s
+Train Loss: 0.116 | Train Acc: 96.038%
+Test Loss: 0.582 | Test Acc: 83.900%
+Saved checkpoint to checkpoints/checkpoint_epoch_110.pth
+Learning rate: 0.08000000000000002
+Epoch 110 completed in 24.89s
+
+Epoch: 111
+Batch: 0/98 | Loss: 0.080 | Acc: 97.070% | Time: 0.4s
+Batch: 50/98 | Loss: 0.109 | Acc: 96.316% | Time: 12.2s
+Train Loss: 0.114 | Train Acc: 96.076%
+Test Loss: 0.625 | Test Acc: 84.390%
+Learning rate: 0.08000000000000002
+Epoch 111 completed in 24.61s
+
+Epoch: 112
+Batch: 0/98 | Loss: 0.123 | Acc: 94.727% | Time: 0.4s
+Batch: 50/98 | Loss: 0.113 | Acc: 96.071% | Time: 12.2s
+Train Loss: 0.116 | Train Acc: 95.998%
+Test Loss: 0.639 | Test Acc: 81.350%
+Learning rate: 0.08000000000000002
+Epoch 112 completed in 24.59s
+
+Epoch: 113
+Batch: 0/98 | Loss: 0.095 | Acc: 97.070% | Time: 0.4s
+Batch: 50/98 | Loss: 0.104 | Acc: 96.458% | Time: 12.2s
+Train Loss: 0.112 | Train Acc: 96.148%
+Test Loss: 0.368 | Test Acc: 89.000%
+Learning rate: 0.08000000000000002
+Epoch 113 completed in 24.59s
+
+Epoch: 114
+Batch: 0/98 | Loss: 0.146 | Acc: 95.312% | Time: 0.4s
+Batch: 50/98 | Loss: 0.107 | Acc: 96.404% | Time: 12.1s
+Train Loss: 0.111 | Train Acc: 96.250%
+Test Loss: 0.431 | Test Acc: 87.030%
+Learning rate: 0.08000000000000002
+Epoch 114 completed in 24.59s
+
+Epoch: 115
+Batch: 0/98 | Loss: 0.125 | Acc: 95.898% | Time: 0.4s
+Batch: 50/98 | Loss: 0.103 | Acc: 96.542% | Time: 12.2s
+Train Loss: 0.112 | Train Acc: 96.164%
+Test Loss: 0.610 | Test Acc: 82.610%
+Learning rate: 0.08000000000000002
+Epoch 115 completed in 24.60s
+
+Epoch: 116
+Batch: 0/98 | Loss: 0.117 | Acc: 95.508% | Time: 0.4s
+Batch: 50/98 | Loss: 0.110 | Acc: 96.055% | Time: 12.1s
+Train Loss: 0.109 | Train Acc: 96.172%
+Test Loss: 0.486 | Test Acc: 85.950%
+Learning rate: 0.08000000000000002
+Epoch 116 completed in 24.58s
+
+Epoch: 117
+Batch: 0/98 | Loss: 0.114 | Acc: 95.703% | Time: 0.4s
+Batch: 50/98 | Loss: 0.119 | Acc: 95.868% | Time: 12.1s
+Train Loss: 0.117 | Train Acc: 96.024%
+Test Loss: 0.448 | Test Acc: 85.980%
+Learning rate: 0.08000000000000002
+Epoch 117 completed in 24.59s
+
+Epoch: 118
+Batch: 0/98 | Loss: 0.076 | Acc: 97.656% | Time: 0.4s
+Batch: 50/98 | Loss: 0.100 | Acc: 96.569% | Time: 12.1s
+Train Loss: 0.108 | Train Acc: 96.242%
+Test Loss: 0.614 | Test Acc: 82.530%
+Learning rate: 0.08000000000000002
+Epoch 118 completed in 24.58s
+
+Epoch: 119
+Batch: 0/98 | Loss: 0.098 | Acc: 96.094% | Time: 0.4s
+Batch: 50/98 | Loss: 0.096 | Acc: 96.802% | Time: 12.1s
+Train Loss: 0.103 | Train Acc: 96.532%
+Test Loss: 0.590 | Test Acc: 83.640%
+Learning rate: 0.08000000000000002
+Epoch 119 completed in 24.60s
+
+Epoch: 120
+Batch: 0/98 | Loss: 0.120 | Acc: 95.508% | Time: 0.4s
+Batch: 50/98 | Loss: 0.108 | Acc: 96.335% | Time: 12.2s
+Train Loss: 0.117 | Train Acc: 95.930%
+Test Loss: 0.496 | Test Acc: 86.110%
+Saved checkpoint to checkpoints/checkpoint_epoch_120.pth
+Learning rate: 0.016000000000000004
+Epoch 120 completed in 24.89s
+
+Epoch: 121
+Batch: 0/98 | Loss: 0.119 | Acc: 94.922% | Time: 0.4s
+Batch: 50/98 | Loss: 0.065 | Acc: 97.917% | Time: 12.2s
+Train Loss: 0.052 | Train Acc: 98.438%
+Test Loss: 0.222 | Test Acc: 92.900%
+Best accuracy: 92.900% (previous: 90.420%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 121 completed in 24.96s
+
+Epoch: 122
+Batch: 0/98 | Loss: 0.026 | Acc: 99.609% | Time: 0.4s
+Batch: 50/98 | Loss: 0.029 | Acc: 99.246% | Time: 12.2s
+Train Loss: 0.029 | Train Acc: 99.276%
+Test Loss: 0.217 | Test Acc: 93.410%
+Best accuracy: 93.410% (previous: 92.900%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 122 completed in 24.91s
+
+Epoch: 123
+Batch: 0/98 | Loss: 0.027 | Acc: 99.414% | Time: 0.4s
+Batch: 50/98 | Loss: 0.021 | Acc: 99.567% | Time: 12.2s
+Train Loss: 0.021 | Train Acc: 99.554%
+Test Loss: 0.216 | Test Acc: 93.690%
+Best accuracy: 93.690% (previous: 93.410%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 123 completed in 24.98s
+
+Epoch: 124
+Batch: 0/98 | Loss: 0.024 | Acc: 99.414% | Time: 0.5s
+Batch: 50/98 | Loss: 0.019 | Acc: 99.571% | Time: 12.2s
+Train Loss: 0.018 | Train Acc: 99.614%
+Test Loss: 0.219 | Test Acc: 93.710%
+Best accuracy: 93.710% (previous: 93.690%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 124 completed in 24.99s
+
+Epoch: 125
+Batch: 0/98 | Loss: 0.015 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.015 | Acc: 99.690% | Time: 12.2s
+Train Loss: 0.015 | Train Acc: 99.720%
+Test Loss: 0.213 | Test Acc: 93.880%
+Best accuracy: 93.880% (previous: 93.710%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 125 completed in 24.91s
+
+Epoch: 126
+Batch: 0/98 | Loss: 0.011 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.013 | Acc: 99.789% | Time: 12.2s
+Train Loss: 0.013 | Train Acc: 99.788%
+Test Loss: 0.220 | Test Acc: 93.900%
+Best accuracy: 93.900% (previous: 93.880%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 126 completed in 24.91s
+
+Epoch: 127
+Batch: 0/98 | Loss: 0.007 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.011 | Acc: 99.870% | Time: 12.2s
+Train Loss: 0.012 | Train Acc: 99.820%
+Test Loss: 0.217 | Test Acc: 93.830%
+Learning rate: 0.016000000000000004
+Epoch 127 completed in 24.64s
+
+Epoch: 128
+Batch: 0/98 | Loss: 0.006 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.011 | Acc: 99.820% | Time: 12.2s
+Train Loss: 0.011 | Train Acc: 99.818%
+Test Loss: 0.221 | Test Acc: 93.800%
+Learning rate: 0.016000000000000004
+Epoch 128 completed in 24.62s
+
+Epoch: 129
+Batch: 0/98 | Loss: 0.009 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.010 | Acc: 99.835% | Time: 12.2s
+Train Loss: 0.011 | Train Acc: 99.830%
+Test Loss: 0.213 | Test Acc: 94.090%
+Best accuracy: 94.090% (previous: 93.900%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 129 completed in 24.92s
+
+Epoch: 130
+Batch: 0/98 | Loss: 0.016 | Acc: 99.609% | Time: 0.4s
+Batch: 50/98 | Loss: 0.010 | Acc: 99.870% | Time: 12.2s
+Train Loss: 0.010 | Train Acc: 99.860%
+Test Loss: 0.221 | Test Acc: 93.970%
+Saved checkpoint to checkpoints/checkpoint_epoch_130.pth
+Learning rate: 0.016000000000000004
+Epoch 130 completed in 24.87s
+
+Epoch: 131
+Batch: 0/98 | Loss: 0.008 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.009 | Acc: 99.877% | Time: 12.2s
+Train Loss: 0.009 | Train Acc: 99.876%
+Test Loss: 0.213 | Test Acc: 94.110%
+Best accuracy: 94.110% (previous: 94.090%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 131 completed in 24.94s
+
+Epoch: 132
+Batch: 0/98 | Loss: 0.007 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.007 | Acc: 99.954% | Time: 12.1s
+Train Loss: 0.008 | Train Acc: 99.914%
+Test Loss: 0.219 | Test Acc: 94.010%
+Learning rate: 0.016000000000000004
+Epoch 132 completed in 24.58s
+
+Epoch: 133
+Batch: 0/98 | Loss: 0.007 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.008 | Acc: 99.908% | Time: 12.2s
+Train Loss: 0.008 | Train Acc: 99.890%
+Test Loss: 0.216 | Test Acc: 94.030%
+Learning rate: 0.016000000000000004
+Epoch 133 completed in 24.60s
+
+Epoch: 134
+Batch: 0/98 | Loss: 0.011 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.007 | Acc: 99.939% | Time: 12.1s
+Train Loss: 0.007 | Train Acc: 99.916%
+Test Loss: 0.220 | Test Acc: 94.070%
+Learning rate: 0.016000000000000004
+Epoch 134 completed in 24.58s
+
+Epoch: 135
+Batch: 0/98 | Loss: 0.006 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.007 | Acc: 99.943% | Time: 12.2s
+Train Loss: 0.007 | Train Acc: 99.934%
+Test Loss: 0.220 | Test Acc: 94.120%
+Best accuracy: 94.120% (previous: 94.110%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 135 completed in 24.94s
+
+Epoch: 136
+Batch: 0/98 | Loss: 0.005 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.006 | Acc: 99.935% | Time: 12.2s
+Train Loss: 0.007 | Train Acc: 99.926%
+Test Loss: 0.222 | Test Acc: 94.040%
+Learning rate: 0.016000000000000004
+Epoch 136 completed in 24.62s
+
+Epoch: 137
+Batch: 0/98 | Loss: 0.009 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.006 | Acc: 99.958% | Time: 12.2s
+Train Loss: 0.006 | Train Acc: 99.958%
+Test Loss: 0.220 | Test Acc: 94.170%
+Best accuracy: 94.170% (previous: 94.120%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 137 completed in 24.89s
+
+Epoch: 138
+Batch: 0/98 | Loss: 0.006 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.006 | Acc: 99.962% | Time: 12.2s
+Train Loss: 0.006 | Train Acc: 99.952%
+Test Loss: 0.219 | Test Acc: 94.110%
+Learning rate: 0.016000000000000004
+Epoch 138 completed in 24.61s
+
+Epoch: 139
+Batch: 0/98 | Loss: 0.008 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.006 | Acc: 99.946% | Time: 12.2s
+Train Loss: 0.006 | Train Acc: 99.934%
+Test Loss: 0.221 | Test Acc: 94.010%
+Learning rate: 0.016000000000000004
+Epoch 139 completed in 24.60s
+
+Epoch: 140
+Batch: 0/98 | Loss: 0.007 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.006 | Acc: 99.950% | Time: 12.2s
+Train Loss: 0.006 | Train Acc: 99.944%
+Test Loss: 0.223 | Test Acc: 94.080%
+Saved checkpoint to checkpoints/checkpoint_epoch_140.pth
+Learning rate: 0.016000000000000004
+Epoch 140 completed in 24.93s
+
+Epoch: 141
+Batch: 0/98 | Loss: 0.006 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.006 | Acc: 99.920% | Time: 12.2s
+Train Loss: 0.006 | Train Acc: 99.922%
+Test Loss: 0.223 | Test Acc: 94.120%
+Learning rate: 0.016000000000000004
+Epoch 141 completed in 24.62s
+
+Epoch: 142
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.005 | Acc: 99.969% | Time: 12.2s
+Train Loss: 0.005 | Train Acc: 99.970%
+Test Loss: 0.223 | Test Acc: 94.250%
+Best accuracy: 94.250% (previous: 94.170%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 142 completed in 24.92s
+
+Epoch: 143
+Batch: 0/98 | Loss: 0.008 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.006 | Acc: 99.912% | Time: 12.2s
+Train Loss: 0.005 | Train Acc: 99.940%
+Test Loss: 0.226 | Test Acc: 93.910%
+Learning rate: 0.016000000000000004
+Epoch 143 completed in 24.62s
+
+Epoch: 144
+Batch: 0/98 | Loss: 0.007 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.005 | Acc: 99.969% | Time: 12.2s
+Train Loss: 0.005 | Train Acc: 99.964%
+Test Loss: 0.222 | Test Acc: 94.250%
+Learning rate: 0.016000000000000004
+Epoch 144 completed in 24.62s
+
+Epoch: 145
+Batch: 0/98 | Loss: 0.008 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.005 | Acc: 99.977% | Time: 12.2s
+Train Loss: 0.005 | Train Acc: 99.978%
+Test Loss: 0.227 | Test Acc: 94.060%
+Learning rate: 0.016000000000000004
+Epoch 145 completed in 24.63s
+
+Epoch: 146
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.005 | Acc: 99.962% | Time: 12.2s
+Train Loss: 0.005 | Train Acc: 99.966%
+Test Loss: 0.222 | Test Acc: 93.930%
+Learning rate: 0.016000000000000004
+Epoch 146 completed in 24.61s
+
+Epoch: 147
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.005 | Acc: 99.958% | Time: 12.2s
+Train Loss: 0.005 | Train Acc: 99.958%
+Test Loss: 0.228 | Test Acc: 94.000%
+Learning rate: 0.016000000000000004
+Epoch 147 completed in 24.61s
+
+Epoch: 148
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.005 | Acc: 99.939% | Time: 12.2s
+Train Loss: 0.005 | Train Acc: 99.948%
+Test Loss: 0.225 | Test Acc: 93.910%
+Learning rate: 0.016000000000000004
+Epoch 148 completed in 24.59s
+
+Epoch: 149
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.985% | Time: 12.1s
+Train Loss: 0.004 | Train Acc: 99.982%
+Test Loss: 0.224 | Test Acc: 94.110%
+Learning rate: 0.016000000000000004
+Epoch 149 completed in 24.58s
+
+Epoch: 150
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.005 | Acc: 99.962% | Time: 12.1s
+Train Loss: 0.005 | Train Acc: 99.960%
+Test Loss: 0.224 | Test Acc: 94.030%
+Saved checkpoint to checkpoints/checkpoint_epoch_150.pth
+Learning rate: 0.016000000000000004
+Epoch 150 completed in 24.86s
+
+Epoch: 151
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.005 | Acc: 99.973% | Time: 12.2s
+Train Loss: 0.005 | Train Acc: 99.974%
+Test Loss: 0.229 | Test Acc: 94.200%
+Learning rate: 0.016000000000000004
+Epoch 151 completed in 24.61s
+
+Epoch: 152
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.977% | Time: 12.2s
+Train Loss: 0.004 | Train Acc: 99.984%
+Test Loss: 0.220 | Test Acc: 94.180%
+Learning rate: 0.016000000000000004
+Epoch 152 completed in 24.61s
+
+Epoch: 153
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.958% | Time: 12.2s
+Train Loss: 0.004 | Train Acc: 99.964%
+Test Loss: 0.217 | Test Acc: 94.290%
+Best accuracy: 94.290% (previous: 94.250%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.016000000000000004
+Epoch 153 completed in 24.90s
+
+Epoch: 154
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.5s
+Batch: 50/98 | Loss: 0.005 | Acc: 99.954% | Time: 12.2s
+Train Loss: 0.005 | Train Acc: 99.954%
+Test Loss: 0.225 | Test Acc: 94.220%
+Learning rate: 0.016000000000000004
+Epoch 154 completed in 24.67s
+
+Epoch: 155
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.969% | Time: 12.2s
+Train Loss: 0.004 | Train Acc: 99.976%
+Test Loss: 0.225 | Test Acc: 94.060%
+Learning rate: 0.016000000000000004
+Epoch 155 completed in 24.61s
+
+Epoch: 156
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.989% | Time: 12.2s
+Train Loss: 0.004 | Train Acc: 99.986%
+Test Loss: 0.223 | Test Acc: 94.150%
+Learning rate: 0.016000000000000004
+Epoch 156 completed in 24.61s
+
+Epoch: 157
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.973% | Time: 12.2s
+Train Loss: 0.004 | Train Acc: 99.976%
+Test Loss: 0.222 | Test Acc: 94.270%
+Learning rate: 0.016000000000000004
+Epoch 157 completed in 24.60s
+
+Epoch: 158
+Batch: 0/98 | Loss: 0.006 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.981% | Time: 12.2s
+Train Loss: 0.004 | Train Acc: 99.976%
+Test Loss: 0.226 | Test Acc: 94.040%
+Learning rate: 0.016000000000000004
+Epoch 158 completed in 24.66s
+
+Epoch: 159
+Batch: 0/98 | Loss: 0.005 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.946% | Time: 12.2s
+Train Loss: 0.005 | Train Acc: 99.946%
+Test Loss: 0.229 | Test Acc: 93.890%
+Learning rate: 0.016000000000000004
+Epoch 159 completed in 24.60s
+
+Epoch: 160
+Batch: 0/98 | Loss: 0.005 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.977% | Time: 12.2s
+Train Loss: 0.004 | Train Acc: 99.970%
+Test Loss: 0.227 | Test Acc: 94.200%
+Saved checkpoint to checkpoints/checkpoint_epoch_160.pth
+Learning rate: 0.003200000000000001
+Epoch 160 completed in 24.89s
+
+Epoch: 161
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.973% | Time: 12.2s
+Train Loss: 0.004 | Train Acc: 99.980%
+Test Loss: 0.216 | Test Acc: 94.390%
+Best accuracy: 94.390% (previous: 94.290%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.003200000000000001
+Epoch 161 completed in 24.92s
+
+Epoch: 162
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.004 | Acc: 99.973% | Time: 12.2s
+Train Loss: 0.004 | Train Acc: 99.978%
+Test Loss: 0.214 | Test Acc: 94.470%
+Best accuracy: 94.470% (previous: 94.390%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.003200000000000001
+Epoch 162 completed in 24.91s
+
+Epoch: 163
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.996%
+Test Loss: 0.213 | Test Acc: 94.470%
+Learning rate: 0.003200000000000001
+Epoch 163 completed in 24.60s
+
+Epoch: 164
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 100.000% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.998%
+Test Loss: 0.212 | Test Acc: 94.460%
+Learning rate: 0.003200000000000001
+Epoch 164 completed in 24.59s
+
+Epoch: 165
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.989% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.988%
+Test Loss: 0.212 | Test Acc: 94.570%
+Best accuracy: 94.570% (previous: 94.470%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.003200000000000001
+Epoch 165 completed in 24.89s
+
+Epoch: 166
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.992% | Time: 12.1s
+Train Loss: 0.003 | Train Acc: 99.996%
+Test Loss: 0.212 | Test Acc: 94.450%
+Learning rate: 0.003200000000000001
+Epoch 166 completed in 24.59s
+
+Epoch: 167
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.990%
+Test Loss: 0.212 | Test Acc: 94.330%
+Learning rate: 0.003200000000000001
+Epoch 167 completed in 24.59s
+
+Epoch: 168
+Batch: 0/98 | Loss: 0.005 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.985% | Time: 12.1s
+Train Loss: 0.003 | Train Acc: 99.992%
+Test Loss: 0.214 | Test Acc: 94.450%
+Learning rate: 0.003200000000000001
+Epoch 168 completed in 24.60s
+
+Epoch: 169
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.985% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.992%
+Test Loss: 0.213 | Test Acc: 94.460%
+Learning rate: 0.003200000000000001
+Epoch 169 completed in 24.61s
+
+Epoch: 170
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.985% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.990%
+Test Loss: 0.213 | Test Acc: 94.450%
+Saved checkpoint to checkpoints/checkpoint_epoch_170.pth
+Learning rate: 0.003200000000000001
+Epoch 170 completed in 24.88s
+
+Epoch: 171
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.992%
+Test Loss: 0.215 | Test Acc: 94.470%
+Learning rate: 0.003200000000000001
+Epoch 171 completed in 24.62s
+
+Epoch: 172
+Batch: 0/98 | Loss: 0.007 | Acc: 99.805% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.992%
+Test Loss: 0.215 | Test Acc: 94.540%
+Learning rate: 0.003200000000000001
+Epoch 172 completed in 24.61s
+
+Epoch: 173
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.994%
+Test Loss: 0.213 | Test Acc: 94.480%
+Learning rate: 0.003200000000000001
+Epoch 173 completed in 24.61s
+
+Epoch: 174
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.992% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.994%
+Test Loss: 0.212 | Test Acc: 94.580%
+Best accuracy: 94.580% (previous: 94.570%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.003200000000000001
+Epoch 174 completed in 24.91s
+
+Epoch: 175
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.996%
+Test Loss: 0.212 | Test Acc: 94.490%
+Learning rate: 0.003200000000000001
+Epoch 175 completed in 24.61s
+
+Epoch: 176
+Batch: 0/98 | Loss: 0.004 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.998%
+Test Loss: 0.213 | Test Acc: 94.570%
+Learning rate: 0.003200000000000001
+Epoch 176 completed in 24.61s
+
+Epoch: 177
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.992% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.992%
+Test Loss: 0.212 | Test Acc: 94.570%
+Learning rate: 0.003200000000000001
+Epoch 177 completed in 24.62s
+
+Epoch: 178
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.992% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.992%
+Test Loss: 0.212 | Test Acc: 94.560%
+Learning rate: 0.003200000000000001
+Epoch 178 completed in 24.62s
+
+Epoch: 179
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.992% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.996%
+Test Loss: 0.212 | Test Acc: 94.520%
+Learning rate: 0.003200000000000001
+Epoch 179 completed in 24.59s
+
+Epoch: 180
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.002 | Acc: 100.000% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.996%
+Test Loss: 0.212 | Test Acc: 94.570%
+Saved checkpoint to checkpoints/checkpoint_epoch_180.pth
+Learning rate: 0.003200000000000001
+Epoch 180 completed in 24.90s
+
+Epoch: 181
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.002 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.996%
+Test Loss: 0.213 | Test Acc: 94.620%
+Best accuracy: 94.620% (previous: 94.580%)
+Saved best checkpoint to checkpoints/best_model.pth
+Learning rate: 0.003200000000000001
+Epoch 181 completed in 24.89s
+
+Epoch: 182
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.002 | Acc: 100.000% | Time: 12.1s
+Train Loss: 0.003 | Train Acc: 99.996%
+Test Loss: 0.214 | Test Acc: 94.350%
+Learning rate: 0.003200000000000001
+Epoch 182 completed in 24.58s
+
+Epoch: 183
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.992%
+Test Loss: 0.213 | Test Acc: 94.500%
+Learning rate: 0.003200000000000001
+Epoch 183 completed in 24.63s
+
+Epoch: 184
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.989% | Time: 12.1s
+Train Loss: 0.003 | Train Acc: 99.988%
+Test Loss: 0.215 | Test Acc: 94.380%
+Learning rate: 0.003200000000000001
+Epoch 184 completed in 24.59s
+
+Epoch: 185
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.002 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.994%
+Test Loss: 0.213 | Test Acc: 94.450%
+Learning rate: 0.003200000000000001
+Epoch 185 completed in 24.60s
+
+Epoch: 186
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.996%
+Test Loss: 0.213 | Test Acc: 94.540%
+Learning rate: 0.003200000000000001
+Epoch 186 completed in 24.61s
+
+Epoch: 187
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.998%
+Test Loss: 0.213 | Test Acc: 94.510%
+Learning rate: 0.003200000000000001
+Epoch 187 completed in 24.60s
+
+Epoch: 188
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.992% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.992%
+Test Loss: 0.213 | Test Acc: 94.460%
+Learning rate: 0.003200000000000001
+Epoch 188 completed in 24.60s
+
+Epoch: 189
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.994%
+Test Loss: 0.212 | Test Acc: 94.490%
+Learning rate: 0.003200000000000001
+Epoch 189 completed in 24.61s
+
+Epoch: 190
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.002 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.002 | Train Acc: 99.996%
+Test Loss: 0.213 | Test Acc: 94.450%
+Saved checkpoint to checkpoints/checkpoint_epoch_190.pth
+Learning rate: 0.003200000000000001
+Epoch 190 completed in 24.89s
+
+Epoch: 191
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.5s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.992% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.994%
+Test Loss: 0.213 | Test Acc: 94.530%
+Learning rate: 0.003200000000000001
+Epoch 191 completed in 24.67s
+
+Epoch: 192
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.002 | Acc: 99.992% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.994%
+Test Loss: 0.214 | Test Acc: 94.410%
+Learning rate: 0.003200000000000001
+Epoch 192 completed in 24.61s
+
+Epoch: 193
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.992% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.992%
+Test Loss: 0.213 | Test Acc: 94.410%
+Learning rate: 0.003200000000000001
+Epoch 193 completed in 24.61s
+
+Epoch: 194
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.002 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.002 | Train Acc: 99.996%
+Test Loss: 0.214 | Test Acc: 94.470%
+Learning rate: 0.003200000000000001
+Epoch 194 completed in 24.61s
+
+Epoch: 195
+Batch: 0/98 | Loss: 0.003 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.002 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.002 | Train Acc: 99.998%
+Test Loss: 0.214 | Test Acc: 94.520%
+Learning rate: 0.003200000000000001
+Epoch 195 completed in 24.60s
+
+Epoch: 196
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.002 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.002 | Train Acc: 99.996%
+Test Loss: 0.214 | Test Acc: 94.490%
+Learning rate: 0.003200000000000001
+Epoch 196 completed in 24.60s
+
+Epoch: 197
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.992% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.990%
+Test Loss: 0.216 | Test Acc: 94.500%
+Learning rate: 0.003200000000000001
+Epoch 197 completed in 24.62s
+
+Epoch: 198
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.992% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.996%
+Test Loss: 0.215 | Test Acc: 94.470%
+Learning rate: 0.003200000000000001
+Epoch 198 completed in 24.60s
+
+Epoch: 199
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 100.000% | Time: 12.1s
+Train Loss: 0.003 | Train Acc: 100.000%
+Test Loss: 0.212 | Test Acc: 94.610%
+Learning rate: 0.003200000000000001
+Epoch 199 completed in 24.58s
+
+Epoch: 200
+Batch: 0/98 | Loss: 0.002 | Acc: 100.000% | Time: 0.4s
+Batch: 50/98 | Loss: 0.003 | Acc: 99.996% | Time: 12.2s
+Train Loss: 0.003 | Train Acc: 99.998%
+Test Loss: 0.214 | Test Acc: 94.600%
+Saved checkpoint to checkpoints/checkpoint_epoch_200.pth
+Learning rate: 0.003200000000000001
+Epoch 200 completed in 24.89s
+Training completed in 82.34 minutes
+Best accuracy: 94.620%

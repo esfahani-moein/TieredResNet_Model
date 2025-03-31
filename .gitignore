@@ -1,0 +1,15 @@
+# Ignore all shell script files
+*.sh
+
+# Ignore a specific folder (replace 'folder_name' with your folder name)
+check_backup/
+
+# Common Python ignores that might be helpful
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+ENV/
+
